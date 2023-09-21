@@ -8,10 +8,26 @@ body {
 }
 
 h1 {
+    /*font-family: Arial, Helvetica, sans-serif*/
     font-family: 'Mansalva', cursive;
-    font-style: italic;
     text-transform: uppercase;
     font-size: 45px;
+
+    /*Colores*/  
+
+    /*Colores del sistema*//*https://www.w3schools.com/cssref/css_colors.php*/
+    color: mediumpurple;
+    
+    /*Colores hexadecimales*/
+    color: #6e1fa4;
+    
+    /*Colores RGB*/
+    color: rgb(255, 255, 107);
+    
+    
+    /*Colores RGBA*/
+    color: rgb(255, 255, 107, 0.5);
+
 }
 
 h3 {
