@@ -82,3 +82,10 @@
     border: 1px solid black;
     cursor: pointer;
   }
+
+  /*selector de hijos*/
+  #menu > li > a{
+    font-size: 18px;
+    color: red;
+    text-decoration: none;
+  }
