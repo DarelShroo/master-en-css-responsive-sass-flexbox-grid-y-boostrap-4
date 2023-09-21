@@ -89,3 +89,13 @@
     color: red;
     text-decoration: none;
   }
+
+  /*Prioridad*/ 
+  /*Cuanto mas específico mas prioridad*/
+  #saludo h1 {
+    background: brown !important;
+  }
+
+  h1 {
+    background: purple !important;
+  }
