@@ -1,0 +1,43 @@
+@font-face {
+    font-family: MontserratFuenteCustom;
+    src: url('./fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+body {
+    background: red;
+}
+
+h1 {
+    /*font-family: Arial, Helvetica, sans-serif*/
+    font-family: 'Mansalva', cursive;
+    text-transform: uppercase;
+    font-size: 45px;
+
+    /*Colores*/  
+
+    /*Colores del sistema*//*https://www.w3schools.com/cssref/css_colors.php*/
+    color: mediumpurple;
+    
+    /*Colores hexadecimales*/
+    color: #6e1fa4;
+    
+    /*Colores RGB*/
+    color: rgb(255, 255, 107);
+    
+    
+    /*Colores RGBA*/
+    color: rgb(255, 255, 107, 0.5);
+
+}
+
+h3 {
+    font-family: MontserratFuenteCustom, 'Comic Sans MS';
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
